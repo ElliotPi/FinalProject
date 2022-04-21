@@ -1,0 +1,116 @@
+/* Elliot Pi 2022/4/7 */
+/* The main style for the website*/
+
+body{
+    background-color:ivory;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #636161
+}
+
+
+a {
+    color: #0a91eb;
+    text-decoration: none; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*a:visited{
+    color:rgb(199, 90, 199);
+}*/
+
+li{
+    font-size: 18px;
+    font-style:italic;
+    font-weight:normal;
+}
+
+.resumeListHeading{
+    font-weight:bold;
+    font-style:normal;
+}
+
+.homebg{
+    background-image: url('images/background.jpg');    
+}
+
+.bold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.box1{
+    color: aquamarine;
+    padding: 50px;
+    border-left: 60px;
+    border-right: 60px;
+    margin: 100px;
+}
+
+/* positioning style */
+
+body{
+    background-color: ivory;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.common{
+    /*background-color: #CCCCCC;
+    Border: solid 2px white;*/
+    position: absolute
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 110px;
+    z-index: 2;
+    border-bottom: solid 2px silver
+}
+
+.leftmenu{
+    top: 124px;
+    left: 5px;
+    width: 120px;
+    bottom: 64px;
+    z-index: 1;
+    padding-top: 30px;
+    border-right: solid 2px silver
+}
+
+.mainbody{
+    top: 124px;
+    left: 134px;
+    right: 134px;
+    bottom: 64px;
+}
+
+.rightmenu{
+    top: 124px;
+    right: 5px;
+    width: 120px;
+    bottom: 64px;
+    border-left: solid 2px silver;
+    padding-left: 5px;
+}
+
+.footer{
+    height: 10px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    font-size: 4px;
+    color:rgb(114, 112, 112);
+    text-align: center;
+    position:fixed;
+
+}
+
+.subheader{
+    float: right;
+}
